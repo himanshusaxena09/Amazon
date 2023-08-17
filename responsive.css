@@ -1,0 +1,119 @@
+/* Base styles */
+
+/* Add any base styles that are common to all screen sizes here */
+
+/* Mobile styles */
+@media (max-width: 700px) {
+    /* Navbar */
+    .navbar {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+    }
+
+    .nav-logo {
+        margin-bottom: 10px;
+    }
+
+    .nav-address,
+    .nav-search,
+    .nav-signin,
+    .nav-return,
+    .nav-cart {
+        margin-bottom: 10px;
+    }
+
+    .nav-search {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .search-select,
+    .search-input,
+    .search-icon {
+        width: 100%;
+    }
+
+    .nav-search:hover {
+        border: none;
+    }
+
+    .nav-second,
+    .nav-cart {
+        font-size: 0.75rem;
+    }
+
+    /* Panel */
+    .panel {
+        display: none;
+    }
+
+    /* Boxes */
+    .box {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .box-content h2 {
+        font-size: 1rem;
+    }
+
+    .box-content p {
+        font-size: 0.7rem;
+    }
+
+    /* Hero section */
+    .hero-section {
+        height: 150px;
+    }
+
+    .hero-msg {
+        font-size: 0.65rem;
+    }
+
+    /* Footer */
+    .foot-panel2 {
+        flex-direction: row;
+        text-align: center;
+    }
+
+    ul {
+        margin: 5px auto;
+    }
+
+    ul a {
+        font-size: 0.65rem;
+        margin-top: 5px;
+    }
+
+    /* Logo */
+    .logo {
+        background-size: contain;
+        height: 40px;
+        width: 80px;
+    }
+
+    /* Footer panel 1 */
+    .foot-panel1 {
+        font-size: 0.7rem;
+        height: auto;
+        padding: 5px;
+        text-align: center;
+    }
+
+    /* Footer panel 3 */
+    .foot-panel3 {
+        height: auto;
+        padding: 5px;
+    }
+
+    /* Footer panel 4 */
+    .foot-panel4 {
+        font-size: 0.6rem;
+        height: auto;
+        padding: 5px;
+        text-align: center;
+    }
+}
